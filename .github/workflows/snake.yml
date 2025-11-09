@@ -1,24 +1,30 @@
-name: Generate snake animation
+name: 🐍 Snake animation - GitHub contributions
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # Gera todos os dias
+    - cron: "0 */12 * * *"  # Atualiza a cada 12 horas
   workflow_dispatch:
 
 jobs:
   build:
+    name: Gerar animação da cobrinha
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repository
+      - name: 🧩 Clonar repositório
         uses: actions/checkout@v3
 
-      - name: Generate Snake Game
+      - name: 🎨 Gerar animação da cobrinha personalizada
         uses: Platane/snk@v3
         with:
           github_user_name: andreysgoulart
-          outputs: dist/github-contribution-grid-snake.svg
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          color_snake: "#00ffff"        # Cor principal da cobrinha (ciano futurista)
+          color_dots: "#00b3b3"         # Cor dos pontos (azul esverdeado suave)
 
-      - name: Push to output branch
+      - name: 🚀 Publicar no branch de saída
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
