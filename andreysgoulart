@@ -1,10 +1,18 @@
-  # 👋 Olá, eu sou o Andrey Goulart  
-  
+<!-- Banner de boas-vindas -->
+<h1 align="center">👋 Olá, eu sou o <span style="color:#00BFFF">Andrey Goulart</span>!</h1>
+
   🎓 **Estudante de Análise e Desenvolvimento de Sistemas (Uniasselvi)**  
   💼 Experiência em **suporte técnico, automação de processos e validação de dados**  
   💡 Apaixonado por **tecnologia, inovação e eficiência digital**  
   📍 **São Leopoldo/RS - Brasil**
-  
+  ---
+
+<!-- Contadores e badges -->
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=andreysgoulart&label=Visualizações%20do%20perfil&color=blueviolet&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/andreysgoulart?style=for-the-badge&logo=github" alt="Followers" />
+  <img src="https://img.shields.io/badge/Status-Online-success?style=for-the-badge" alt="Status" />
+</p>
   ---
   
   ## 🚀 Sobre mim  
@@ -73,3 +81,8 @@
   ---
   
   ⭐ *"Transformando desafios em soluções através da tecnologia e da colaboração."*
+
+  <!-- Animação final -->
+<p align="center">
+  <img src="https://github.com/andreysgoulart/andreysgoulart/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
