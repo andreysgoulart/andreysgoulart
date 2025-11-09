@@ -10,7 +10,6 @@
   💼 Experiência em **suporte técnico, automação de processos e validação de dados**  
   💡 Apaixonado por **tecnologia, inovação e eficiência digital**  
   📍 **São Leopoldo/RS - Brasil**
-  ---
 
 <!-- Contadores e badges -->
 <p align="center">
